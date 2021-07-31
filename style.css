@@ -11,8 +11,28 @@ html, body{
       object-fit: cover;
       
   }
- 
+ #button{
+    width: 200px;
+    background-color: #C87F9D;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    float: left; /* Float the buttons side by side */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 300px;
+ }
   
+ #button:hover {
+    background-color: #00778B;
+  }
+  #button:active {
+    background-color: #00778B;
+  }
 
   #overlay{
     position: fixed;
