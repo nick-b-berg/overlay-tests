@@ -9,10 +9,22 @@ html, body{
       height: 100%;
       width: 100%;
       object-fit: cover;
+      
   }
   #camera--view, #camera--sensor, #camera--output{
       transform: scaleX(-1);
       filter: FlipH;
+  }
+  
+
+  #overlay{
+    position: fixed;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+  
+    bottom: 400px
   }
   #camera--trigger{
       width: 200px;
@@ -28,6 +40,8 @@ html, body{
       bottom: 30px;
       left: calc(50% - 100px);
   }
+
+
   .taken{
       height: 100px!important;
       width: 100px!important;
