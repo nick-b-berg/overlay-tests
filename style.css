@@ -1,6 +1,6 @@
 html, body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     height: 100%;
     width: 100%;
   }
@@ -22,9 +22,8 @@ html, body{
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
     float: left; /* Float the buttons side by side */
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 300px;
+    margin: 40px;
+   
  }
   
  #button:hover {
