@@ -1,5 +1,5 @@
 // Set constraints for the video stream
-var constraints = { video: { facingMode: "environment" }, audio: false };
+const constraints = { video: { facingMode: "environment" }, audio: false };
 // Define constants
 const cameraView = document.querySelector("#camera--view")
 const cameraOutput = document.querySelector("#camera--output")
